@@ -1,4 +1,8 @@
 /* Basic Style */
+* {
+  box-sizing: border-box
+}
+
 body {
   background-color: #f8f8f8;
   color: #333;
@@ -128,7 +132,7 @@ li > label {
   width: 226px;
 }
 
-li >    input[type="text"] {
+li > input[type="text"] {
   width: 226px
 }
 
