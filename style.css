@@ -16,8 +16,12 @@ body {
   text-align: right;
 }
 
-.header img {
-  width: 100%;
+figure {
+  margin: 0;
+}
+
+.header figure img {
+  width: 500px;
 }
 
 .more-inf {
@@ -36,6 +40,10 @@ body {
   display: block;
   width: 400px;
   margin: 0 auto 0;
+}
+
+section {
+  margin: 16px 0;
 }
 
 .task {
@@ -111,7 +119,7 @@ label[for="new-task"] {
   width: 318px;
 }
 
-p > button:hover {
+section > button:hover {
   color: #0fc57c;
 }
 
@@ -141,7 +149,7 @@ li > input[type="text"] {
   width: 226px;
 }
 
-li > button.delete:hover {
+li > .delete:hover {
   color: #cf2323;
 }
 
